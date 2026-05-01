@@ -1,9 +1,10 @@
-#questao1
 import random
+#exercício 1
+
 def rolar_dados(n):
   dados = []
   for i in range(n):
     valor = random.randint(1, 6)
     dados.append(valor)
-    return dados
+  return dados
   
