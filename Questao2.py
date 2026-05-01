@@ -1,5 +1,5 @@
 #exercicio 2
-def guardar_dados(rolados, estoque, guardar):
+def guardar_dado(rolados, estoque, guardar):
     lista = []
     rol = []
     i = guardar
