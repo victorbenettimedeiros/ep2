@@ -100,3 +100,18 @@ def calcula_pontos_full_house (lista):
     else:
       return 0
     
+#exercicio 9
+def calcula_pontos_quadra (dados):
+  dic = {}
+  s = 0
+  for i in dados:
+    if i in dic:
+      dic[i] += 1
+    else:
+      dic[i] = 1
+    s += i
+  for n, qtd in dic.items():
+    if qtd >= 4:
+      return s
+  return 0
+
