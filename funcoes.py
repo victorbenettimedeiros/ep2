@@ -20,4 +20,16 @@ def guardar_dado(rolados, estoque, guardar):
   lista.append(rol)
   lista.append(estoque)
   return lista
+
+#exercício 3
+def remover_dado(rolados, guardados, removido):
+  rolados.append(guardados[removido])
+  guard=[]
+  for i in range(len(guardados)):
+    if i!=removido:
+      guard.append(guardados[i])
+  lista=[]
+  lista.append(rolados)
+  lista.append(guard)
+  return lista
   
