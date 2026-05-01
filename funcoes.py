@@ -115,3 +115,15 @@ def calcula_pontos_quadra (dados):
       return s
   return 0
 
+#exercicio 10
+def calcula_pontos_quina (dados):
+  dic ={}
+  for i in dados:
+    if i in dic:
+      dic[i] += 1
+    else:
+      dic[i] = 1
+  for n, qtd in dic.items():
+    if qtd >= 5:
+      return 50
+  return 0
