@@ -17,4 +17,7 @@ def guardar_dado(rolados, estoque, guardar):
   for d in range(len(rolados)):
     if d!=i:
       rol.append(rolados[d])
+  lista.append(rol)
+  lista.append(estoque)
+  return lista
   
